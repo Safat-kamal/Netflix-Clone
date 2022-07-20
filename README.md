@@ -14,6 +14,8 @@ Netflix clone Built using React Js
 
 - TMDB Api
 
+- Axios 
+
 - Heroku
 
 ## Screenshots
