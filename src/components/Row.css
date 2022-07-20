@@ -1,0 +1,32 @@
+.items{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.items::-webkit-scrollbar{
+    display: none;
+}
+
+.items_container{
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 15px;
+}
+.item{
+    width: 100%;
+    max-height:100px;
+    object-fit: cover;
+    margin-right: 10px;
+    transition: transform 415ms;
+    cursor: pointer;
+}
+.item:hover{
+    transform: scale(1.08);
+}
+.item-poster{
+ max-height: 250px;
+}
+.item-poster:hover{
+    transform: scale(1.09);
+}
